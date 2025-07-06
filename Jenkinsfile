@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# project to display helloworld from jenkins- using jenkins, docker image-creates contianer, 
-# erase the container after finishes the execution finishes.
-########################################################
+// project to display helloworld from jenkins- using jenkins, docker image-creates contianer, 
+// erase the container after finishes the execution finishes.
+///////////////////////////////////////
 pipeline {
   agent {
     docker { image 'alpine' }
